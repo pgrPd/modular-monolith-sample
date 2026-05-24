@@ -1,0 +1,20 @@
+{
+  "name": "@myapp/orders",
+  "version": "1.0.0",
+  "description": "Order management module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo 'Order tests'"
+  },
+  "dependencies": {
+    "@myapp/core": "workspace:*",
+    "@myapp/shared": "workspace:*",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0"
+  }
+}
