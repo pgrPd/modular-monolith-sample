@@ -1,0 +1,20 @@
+{
+  "name": "@myapp/users",
+  "version": "1.0.0",
+  "description": "User management module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo 'User tests'"
+  },
+  "dependencies": {
+    "@myapp/core": "workspace:*",
+    "@myapp/shared": "workspace:*",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0"
+  }
+}
